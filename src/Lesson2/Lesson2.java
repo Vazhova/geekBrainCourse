@@ -27,10 +27,7 @@ public class Lesson2 {
     }
 
     public static boolean posOrNegReturn(int a) {
-        if (a < 0) {
-            return true;
-        }
-        return false;
+       return a < 0;
     }
 
     public static void printString(String a, int b) {
